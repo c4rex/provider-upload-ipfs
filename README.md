@@ -1,7 +1,7 @@
 # c4rex/strapi-provider-upload-ipfs-http
 Strapi upload provider that can add files to an ipfs node.
 
-[![tests](https://github.com/c4rex/strapi-provider-upload-ipfs-http/actions/workflows/ci.yml/badge.svg)](https://github.com/c4rex/strapi-provider-upload-ipfs-http/actions/workflows/ci.yml)
+[![Tests](https://github.com/c4rex/strapi-provider-upload-ipfs-http/actions/workflows/ci.yml/badge.svg)](https://github.com/c4rex/strapi-provider-upload-ipfs-http/actions/workflows/ci.yml)
 
 ## Prerequisites
 
