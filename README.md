@@ -39,7 +39,7 @@ module.exports = ({ env }) => ({
   // ...
   upload: {
     config: { // remove block in strapi 3.x
-      provider: 'provider-upload-ipfs',
+      provider: 'ipfs-http',
       providerOptions: {
         host: env('IPFS_HOST'),
         port: env('IPFS_PORT'),
