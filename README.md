@@ -3,7 +3,7 @@ Strapi upload provider that can add files to an ipfs node.
 
 ## Prerequisites
 
-- NodeJS v15+
+- NodeJS v14+
 - Strapi v3.6.8+
 
 ## Installation

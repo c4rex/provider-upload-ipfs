@@ -22,11 +22,11 @@
     "test": "jest"
   },
   "engines": {
-    "node": ">=15.x.x",
+    "node": ">=14.x.x",
     "npm": ">=6.0.0"
   },
   "dependencies": {
-    "ipfs-http-client": "^55.0.0"
+    "ipfs-http-client": "52.0.5"
   },
   "repository": {
     "type": "git",
