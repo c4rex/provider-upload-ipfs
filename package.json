@@ -1,5 +1,5 @@
 {
-  "name": "provider-upload-ipfs",
+  "name": "strapi-provider-upload-ipfs-http",
   "version": "1.0.0",
   "description": "Strapi upload provider that can add files to an ipfs node.",
   "main": "lib/index.js",
@@ -30,6 +30,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/c4rex/provider-upload-ipfs"
+    "url": "https://github.com/c4rex/strapi-provider-upload-ipfs-http"
   }
 }

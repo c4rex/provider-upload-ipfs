@@ -3,7 +3,7 @@
 module.exports = ({ env }) => ({
   upload: {
     config: {
-      provider: 'provider-upload-ipfs',
+      provider: 'strapi-provider-upload-ipfs-http',
       providerOptions: {
         host: 'api.ipfs.c4rex.co',
         port: 443,

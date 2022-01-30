@@ -1,4 +1,4 @@
-# c4rex/provider-upload-ipfs
+# c4rex/strapi-provider-upload-ipfs-http
 Strapi upload provider that can add files to an ipfs node.
 
 ## Prerequisites
@@ -10,10 +10,10 @@ Strapi upload provider that can add files to an ipfs node.
 
 ```bash
 # using yarn
-yarn add c4rex/provider-upload-ipfs
+yarn add c4rex/strapi-provider-upload-ipfs-http
 
 # using npm
-npm install c4rex/provider-upload-ipfs --save
+npm install c4rex/strapi-provider-upload-ipfs-http --save
 ```
 
 ## Configurations
@@ -36,7 +36,7 @@ For a public accessible api and gateway you could use the one provided by [C4REX
 module.exports = ({ env }) => ({
   // ...
   upload: {
-    config: {
+    config: { // remove block in strapi 3.x
       provider: 'provider-upload-ipfs',
       providerOptions: {
         host: env('IPFS_HOST'),
