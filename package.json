@@ -1,0 +1,35 @@
+{
+  "name": "provider-upload-ipfs",
+  "version": "1.0.0",
+  "description": "Strapi upload provider that can add files to an ipfs node.",
+  "main": "lib/index.js",
+  "author": {
+    "email": "boris@c4rex.dev",
+    "name": "C4REX HOLDING LLC",
+    "url": "https://c4rex.dev"
+  },
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "jest": "^27.4.7",
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=15.x.x",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "ipfs-http-client": "^55.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/c4rex/provider-upload-ipfs"
+  }
+}
